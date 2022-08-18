@@ -1,0 +1,88 @@
+
+body{
+  background-color: black;
+}
+
+.name{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 300px;
+
+}
+
+.gab{
+  font-size: 40px;
+}
+
+
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: Epilogue,sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  border-radius: 12px;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: white;
+  transition: all .35s;
+  border-radius: 9px;
+}
+
+a:hover{
+  color: black;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
+.wrapper1 {
+  padding: 100px;
+  width: 500px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.roles {
+    font-size: 30px;
+    height: 50px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.roles div {
+    height: 50px;
+    transition: margin-top 1s ease-in-out;
+}
+
